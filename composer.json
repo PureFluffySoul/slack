@@ -16,6 +16,12 @@
       "email": "info@casleentfaar.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:PureFluffySoul/CLSlackBundle.git"
+    }
+  ],
   "require": {
     "php": ">=5.5",
     "ext-curl": "*",
@@ -31,7 +37,7 @@
     "symfony/var-dumper": "^2.3|^3.0|~4.0"
   },
   "suggest": {
-    "cleentfaar/slack-bundle": "For easy integration with your Symfony projects",
+    "spiks/slack-bundle": "For easy integration with your Symfony projects",
     "cleentfaar/slack-cli": "Command-line application for interacting with the Slack API"
   },
   "autoload": {
